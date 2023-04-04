@@ -1,0 +1,17 @@
+.btn-black {
+  background-color: black;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(to left, black, black 50%, whitesmoke 50%, whitesmoke);
+  background-size: 200% 100%;
+  background-position: right;
+  transition: background-position 0.6s ease, color 0.6s ease;
+}
+
+.btn-black:hover {
+  background-position: left;
+  color: black;
+}
